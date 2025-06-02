@@ -18,20 +18,35 @@ SayilarListesi: Sayi nesnelerinden oluşan ana bağlı listedir. Listeye sayı e
 Proje dosyaları aşağıdaki gibi organize edilmiştir:.
 
 ├── include/        # Başlık (.hpp) dosyaları
+
 │   ├── Basamak.hpp
+
 │   ├── Dugum.hpp
+
 │   ├── Sayi.hpp
+
 │   └── SayilarListesi.hpp
+
 ├── lib/            # Derlenmiş nesne (.o) dosyaları
+
 ├── src/            # Kaynak (.cpp) dosyaları
+
 │   ├── Basamak.cpp
+
 │   ├── Dugum.cpp
+
 │   ├── main.cpp
+
 │   ├── Sayi.cpp
+
 │   └── SayilarListesi.cpp
+
 ├── bin/            # Makefile çalıştırıldıktan sonra oluşan Çalıştırılabilir dosya
+
 │   └── main.exe
+
 ├── Makefile        # Derleme talimatları
+
 └── Sayilar.txt     # İşlenecek sayıları içeren metin dosyası
 
 # Kullanım 
@@ -42,11 +57,7 @@ Bu komut, Makefile dosyasındaki derleme hedefini çalıştırarak gerekli .o do
 Proje derlendikten sonra, çalıştırılabilir dosyayı komut satırı üzerinden çalıştırmak için Makefile içindeki calistirma hedefini kullanabilirsiniz:mingw32-make calistirma
 Bu komut, ./bin/main.exe dosyasını çalıştıracaktır.Program başladığında, Sayilar.txt dosyasındaki sayıları okuyacak ve işleyecektir. Ardından kullanıcıya aşağıdaki gibi bir menü sunulacaktır:
 
-############    ******* ******* *******
-# 0xSayıAdresi #    * Adr1 * * Adr2 * * Adr3 *
-#----------#    ******* ******* *******
-#      Sayı  #    * Bs1  * * Bs2  * * Bs3  *
-############    ******* ******* *******
+**Örnek çıktı burada çıkar. (Sayilar.txtye göre)
 
 1.Tek basamaklari Basa Al
 2.Basamaklari Tersle
