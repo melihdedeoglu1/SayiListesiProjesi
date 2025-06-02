@@ -60,8 +60,11 @@ Bu komut, ./bin/main.exe dosyasını çalıştıracaktır.Program başladığın
 **Örnek çıktı burada çıkar. (Sayilar.txtye göre)
 
 1.Tek basamaklari Basa Al
+
 2.Basamaklari Tersle
+
 3.En Buyuk Cikar
+
 4.cikis
 
 İstediğiniz işlemi seçmek için ilgili numarayı girip Enter tuşuna basın.
